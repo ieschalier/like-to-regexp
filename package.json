@@ -1,6 +1,6 @@
 {
   "name": "like-to-regexp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert sql like query to regexp",
   "main": "index.js",
   "scripts": {
