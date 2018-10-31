@@ -1,0 +1,15 @@
+{
+  "name": "like-to-regexp",
+  "version": "0.0.1",
+  "description": "Convert sql like query to regexp",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "https://github.com/ieschalier/like-to-regexp",
+  "author": "Igor ESCHALIER",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
