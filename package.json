@@ -9,6 +9,13 @@
   "repository": "https://github.com/ieschalier/like-to-regexp",
   "author": "Igor ESCHALIER",
   "license": "MIT",
+  "keywords": [
+    "sql",
+    "like",
+    "regexp",
+    "convert",
+    "light"
+  ],
   "devDependencies": {
     "jest": "^23.6.0"
   }
