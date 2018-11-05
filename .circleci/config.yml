@@ -44,12 +44,17 @@ workflows:
   version: 2
   test-and-publish:
     jobs:
-      - test
-      - publish:
-          requires:
-            - test
+
+      - test:
           filters:
             tags:
               only: /^v.*/
 
-
+      - publish:
+          requires:
+            - test
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v.*/
