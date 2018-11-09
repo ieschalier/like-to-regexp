@@ -1,4 +1,4 @@
-# like-to-regexp
+# like-to-regexp [![CircleCI](https://circleci.com/gh/ieschalier/like-to-regexp/tree/master.svg?style=svg)](https://circleci.com/gh/ieschalier/like-to-regexp/tree/master)
 
 Transform sql like query to a valide regexp.
 
